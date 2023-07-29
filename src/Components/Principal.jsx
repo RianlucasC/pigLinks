@@ -37,7 +37,7 @@ const links = [
 const Principal = () => {
   return (
     <main className="w-screen  flex items-center flex-col ">
-        <img src="../../public/pigFace.png" alt="caricatura" className="w-[125px] py-4"/>
+        <img src="https://raw.githubusercontent.com/RianlucasC/pigLinks/master/public/pigFace.png" alt="caricatura" className="w-[125px] py-4"/>
         <section className="text-whiteText w-11/12 max-w-2xl" >
           {links.map(({id, text, src, url}) => <LinkSocial id={id} text={text} src={src} url={url}/>)}
         </section>
